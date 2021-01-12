@@ -22,7 +22,7 @@ while True:
 		message=client.messages.create(
 			body=messageTosend,
 			from_='whatsapp:+14155238886',
-			to='whatsapp:+6282364642717'
+			to='whatsapp:+62XXXXXXXXXXX'
         	)
 		time.sleep(10)
 
