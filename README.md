@@ -32,8 +32,7 @@
 | RX | U0R | 
 | RESET - GND | GND - GPIO0 | 
 
-- Download library ESP32-Cam berupa file ZIP untuk program yang akan ditanamkan pada ESP32-Cam dari link berikut:
-`https://github.com/yoursunny/esp32cam`.
+- Download library ESP32-Cam berupa file ZIP untuk program yang akan ditanamkan pada ESP32-Cam dari link berikut: https://github.com/yoursunny/esp32cam.
 - Kemudian tambahkan file ZIP yang telah didownload ke library Arduino IDE dengan cara memilih ``Sketch > Include Library > Add .ZIP library...`` lalu pilih file ZIP.
 - Buka contoh source dari library yang telah ditambahkan ke dalam Arduino IDE dengan cara memilih ``File > Examples > esp32cam > WifiCam``
 - Setting Board Manager dengan cara memilih ``Tools > Board: > ESP32 Arduino > ESP32 Wrover Module``.
@@ -52,6 +51,7 @@
 - Lalu jalankan program `OpenCV.py` dengan mengetikkan `python OpenCV.py` pada terminal atau command prompt dengan lokasi direktori dimana file program tersebut berada.
 
 **Hasil**
+
 ![Gambar 4](Image/4.PNG)
 
 **Langkah 2: Membuat Threshold & Sistem Notifikasi**
@@ -77,6 +77,7 @@
 - Jalankan program `Alerts.py` dengan mengetikkan `python Alerts.py` pada terminal atau command prompt dengan lokasi direktori dimana file program tersebut berada.
 
 **Hasil**
+
 ![Gambar 7](Image/7.PNG)
 
 ## Penggabungan Sistem
